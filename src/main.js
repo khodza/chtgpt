@@ -30,7 +30,7 @@ const PORT = process.env.PORT || 3000;
 bot.launch({
   webhook: {
     domain: 'https://chatgptbotteleg.herokuapp.com',
-    PORT}
+    port:PORT}
 })
 console.log(`Bot started`);
 
