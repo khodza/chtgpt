@@ -1,4 +1,6 @@
-{
+{ "engines": {
+  "node": "v18.17.1"
+},
   "name": "chatgpt-telegrambot",
   "version": "1.0.0",
   "description": "",

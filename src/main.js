@@ -27,13 +27,11 @@ bot.on('callback_query',globalCallbackQueryHandler);
 
 //LAUNCHING THE BOT
 const PORT = process.env.PORT || 3000;
-bot.launch(
-  {
+bot.launch({
   webhook: {
-    domaPASSWORDin: 'https://aikhodzabot.herokuapp.com',
+    domain: 'https://chatgptbotteleg.herokuapp.com',
     PORT}
-}
-)
+})
 console.log(`Bot started`);
 
 process.once('SIGINT',()=>bot.use('SIGINT'))
