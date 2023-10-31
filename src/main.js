@@ -29,7 +29,7 @@ bot.on('callback_query',globalCallbackQueryHandler);
 const PORT = process.env.PORT || 3000;
 bot.launch({
   webhook: {
-    domain: 'https://chatgptbotteleg.herokuapp.com',
+    domain: 'https://chatgptbotteleg-9dbecdd412cc.herokuapp.com/',
     port:PORT}
 })
 console.log(`Bot started`);
